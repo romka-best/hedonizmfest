@@ -1,0 +1,23 @@
+.participation__title{
+    margin:0;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: -0.02em;
+    text-transform: lowercase;
+}
+@media screen and (max-width: 850px){
+    .participation__title{
+        font-size: 80px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width: 580px){
+    .participation__title{
+        font-size: 44px;
+        line-height: 44px;
+        letter-spacing: 0;
+    }
+}
