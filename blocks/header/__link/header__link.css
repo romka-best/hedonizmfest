@@ -1,0 +1,22 @@
+.header__link {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: #3b3748;
+
+  text-decoration: none;
+  padding: 1.2rem 2.4rem 1.2rem 1.2rem;
+
+  transition: color linear .2s;
+}
+
+.header__link:hover {
+  cursor: pointer;
+  color: #5100b8;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__link {
+    padding: 0.6rem 1.2rem 0.6rem 0.6rem;
+  }
+}
