@@ -7,4 +7,5 @@
   letter-spacing: -0.01em;
   text-transform: lowercase;
   color: var(--dark-primary);
+  white-space: nowrap;
 }
