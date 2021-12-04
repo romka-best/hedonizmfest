@@ -1,0 +1,11 @@
+.footer__illustration {
+  margin-top: 80px;
+  width: 193px;
+  height: 193px;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer__illustration {
+    display: none;
+  }
+}
