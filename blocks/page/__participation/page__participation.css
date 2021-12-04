@@ -1,12 +1,11 @@
 .page__participation{
-    max-width:94.5%;
-    margin:0 auto;
+  max-width:94.5%;
+  margin:0 auto;
 
-    color:#3B3748;
-    font-family: 'TT Firs Neue', Arial, sans-serif;
+  color:var(--dark-primary);
 }
 @media screen and (max-width:580px){
-    .page__participation{
-        max-width:89%;
-    }
+  .page__participation{
+    max-width:89%;
+  }
 }
