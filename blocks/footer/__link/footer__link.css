@@ -1,11 +1,12 @@
 .footer__link {
   display: flex;
   align-items: center;
+
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.33;
+
   color: var(--dark-primary);
   fill: var(--dark-primary);
   white-space: nowrap;
@@ -17,11 +18,11 @@
   fill: var(--purple-secondary);
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .footer__link {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.25;
-    min-width: 320px;
+    min-width: 32rem;
     justify-content: space-between;
   }
 }
