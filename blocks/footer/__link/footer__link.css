@@ -1,0 +1,27 @@
+.footer__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--dark-primary);
+  fill: var(--dark-primary);
+  white-space: nowrap;
+  transition: all linear 0.2s;
+}
+
+.footer__link:hover {
+  color: var(--purple-secondary);
+  fill: var(--purple-secondary);
+}
+
+@media screen and (max-width: 360px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 1.25;
+    min-width: 320px;
+    justify-content: space-between;
+  }
+}
