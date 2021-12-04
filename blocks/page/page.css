@@ -3,7 +3,7 @@
   min-width: 320px;
   max-width: 1440px;
 
-  background-color: #fcfaf7;
+  background-color: var(--light-primary);
 
   font-family: 'TT Firs Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,4 +12,15 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+}
+
+:root {
+  --yellow: #ffd400;
+  --purple-primary: #7100ff;
+  --purple-secondary: #5100b8;
+  --light-primary: #fcfaf7;
+  --light-secondary: #ebe9ed;
+  --dark-primary: #3b3748;
+  --dark-secondary: #96949e;
+  --white: #fff;
 }
