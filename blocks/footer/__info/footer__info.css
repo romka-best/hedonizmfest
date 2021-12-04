@@ -1,3 +1,23 @@
 .footer__info {
   margin-top: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__info:last-of-type {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__info {
+    margin-top: 60px;
+  }
+
+  .footer__info:first-of-type {
+    margin-top: 40px;
+  }
+
+  .footer__info:last-of-type {
+    margin-bottom: 40px;
+  }
+}

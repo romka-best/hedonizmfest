@@ -13,5 +13,6 @@
 @import url(../blocks/footer/__list-element/_type/footer__list-element_type_social.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link/_type/footer__link_type_mail.css);
-@import url(../blocks/footer/__icon-social/footer__icon-social.css);
+@import url(../blocks/footer/__link-social/footer__link-social.css);
 @import url(../blocks/footer/__icon-link/footer__icon-link.css);
+@import url(../blocks/footer/__icon-social/footer__icon-social.css);

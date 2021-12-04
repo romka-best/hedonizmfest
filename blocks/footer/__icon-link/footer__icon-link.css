@@ -3,3 +3,10 @@
   width: 22px;
   height: 21px;
 }
+
+@media screen and (max-width: 360px) {
+  .footer__icon-link {
+    width: 18.33px;
+    height: 17.5px;
+  }
+}
