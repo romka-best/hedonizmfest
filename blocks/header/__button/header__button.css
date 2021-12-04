@@ -1,0 +1,36 @@
+.header__button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  border: none;
+  background-color: transparent;
+
+  display: flex;
+
+  padding: 1.2rem 2.4rem;
+  margin-right: 0.8rem;
+
+  cursor: pointer;
+}
+
+.header__button:hover .header__icon-button-path {
+  fill: #5100b8
+}
+
+.header__button:hover .header__text-button {
+  color: #5100b8
+}
+
+@media screen and (max-width: 1280px) {
+  .header__button {
+    padding: 0.6rem 1.2rem;
+    margin-right: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__button {
+    padding: 1.2rem 2rem;
+    margin-right: 1.6rem;
+  }
+}

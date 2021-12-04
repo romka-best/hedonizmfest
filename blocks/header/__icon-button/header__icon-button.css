@@ -1,0 +1,13 @@
+.header__icon-button {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 425px) {
+  .header__icon-button {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.4rem;
+  }
+}
