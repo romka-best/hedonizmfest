@@ -1,17 +1,17 @@
-.steps__title{
-    margin:0;
+.steps__title {
+  margin: 0;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 3.6rem;
-    letter-spacing: -0.01em;
-    text-transform: lowercase;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  letter-spacing: -0.01rem;
+  text-transform: lowercase;
 }
-@media screen and (max-width:580px){
-    .steps__title{
-        font-size: 24px;
-        line-height: 2.8rem;
-        letter-spacing: 0;
-    }
+
+@media screen and (max-width: 768px) {
+  .steps__title {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0;
+  }
 }

@@ -1,0 +1,14 @@
+.main {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  color: var(--dark-primary);
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+}

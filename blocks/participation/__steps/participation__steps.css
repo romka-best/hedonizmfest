@@ -1,12 +1,12 @@
-.participation__steps{
-    max-width:64.7%;
-    margin:0 auto;
-    margin-top:40px;
-    margin-bottom:32px;
+.participation__steps {
+  max-width: 64.7%;
+  margin: 3rem auto 3.2rem auto;
 }
-@media screen and (max-width: 580px){
-    .participation__steps{
-        max-width:100%;
-        margin-bottom:0;
-    }
+
+@media screen and (max-width: 768px) {
+  .participation__steps {
+    max-width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 0;
+  }
 }
