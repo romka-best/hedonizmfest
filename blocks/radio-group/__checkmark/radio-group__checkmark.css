@@ -1,0 +1,15 @@
+.radio__checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: var(--light-primary);
+  border-radius: 50%;
+}
+
+.radio__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}

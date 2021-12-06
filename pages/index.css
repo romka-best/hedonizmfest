@@ -5,6 +5,26 @@
 
 @import url(../blocks/page/page.css);
 
+/* buttons */
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_type_submit/button_type_submit.css');
+@import url('../blocks/button/_filled/button_filled.css');
+
+/* selection */
+@import url('../blocks/select-menu/select-menu.css');
+@import url('../blocks/select-menu/__container/select-menu__container.css');
+@import url('../blocks/select-menu/__option/select-menu__option.css');
+
+/* input */
+@import url('../blocks/input/input.css');
+@import url('../blocks/input/_type_radio/input_type_radio.css');
+
+/* radio */
+@import url('../blocks/radio-group/radio-group.css');
+@import url('../blocks/radio-group/__checkmark/radio-group__checkmark.css');
+@import url('../blocks/radio-group/_filled/radio-group_filled.css');
+@import url('../blocks/radio-group/__button/radio-group__button.css');
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo-with-location/header__logo-with-location.css);
