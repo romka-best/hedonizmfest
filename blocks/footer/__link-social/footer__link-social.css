@@ -1,5 +1,4 @@
 .footer__link-social {
-  font-size: 0;
   fill: var(--dark-primary);
   transition: fill linear 0.2s;
 }

@@ -1,18 +1,18 @@
 .footer__title {
   margin: 0;
-  font-style: normal;
+
   font-weight: 500;
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 1.12;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.01rem;
   text-transform: lowercase;
   color: var(--dark-primary);
   white-space: nowrap;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .footer__title {
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 1.17;
   }
 }
