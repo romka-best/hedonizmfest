@@ -1,0 +1,12 @@
+.participation__steps{
+    max-width:64.7%;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:32px;
+}
+@media screen and (max-width: 580px){
+    .participation__steps{
+        max-width:100%;
+        margin-bottom:0;
+    }
+}
