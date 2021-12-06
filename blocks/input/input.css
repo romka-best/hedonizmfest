@@ -1,0 +1,22 @@
+.input {
+  font-size: 1.6rem;
+  outline: none;
+  min-width: 10rem;
+  padding: 1.2rem ;
+  border-radius: 20rem;
+  color: var(--dark-secondary);
+  border: .2rem solid var(--dark-secondary);
+  appearance: none;
+  -webkit-appearance: none;
+  transition-property: color, border;
+  transition-duration: .2s;
+}
+
+.input:not(:placeholder-shown) {
+  color: var(--dark-primary);
+}
+
+.input:focus {
+  color: var(--dark-primary);
+  border: .2rem solid var(--purple-primary);
+}
