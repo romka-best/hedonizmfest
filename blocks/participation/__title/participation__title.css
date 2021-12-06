@@ -1,23 +1,30 @@
-.participation__title{
-    margin:0;
+.participation__title {
+  margin: 0;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 96px;
-    line-height: 9.6rem;
-    letter-spacing: -0.02em;
-    text-transform: lowercase;
+  font-weight: 500;
+  font-size: 9.6rem;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
 }
-@media screen and (max-width: 850px){
-    .participation__title{
-        font-size: 80px;
-        line-height: 6rem;
-    }
+
+@media screen and (max-width: 1024px) {
+  .participation__title {
+    font-size: 8rem;
+    line-height: 6rem;
+  }
 }
-@media screen and (max-width: 580px){
-    .participation__title{
-        font-size: 44px;
-        line-height: 4.4rem;
-        letter-spacing: 0;
-    }
+
+@media screen and (max-width: 768px) {
+  .participation__title {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .participation__title {
+    font-size: 4.4rem;
+    line-height: 1;
+    letter-spacing: 0;
+  }
 }
