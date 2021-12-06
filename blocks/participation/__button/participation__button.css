@@ -1,0 +1,11 @@
+.participation__button{
+  align-self: end;
+  margin-top: 3.2rem;
+}
+@media screen and (max-width: 768px) {
+  .participation__button{
+    align-self: auto;
+    margin: 2rem 0;
+    box-shadow: 0px -0.8rem 3.2rem rgba(59, 55, 72, 0.12);
+  }
+}
