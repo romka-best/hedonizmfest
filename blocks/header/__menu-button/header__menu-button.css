@@ -15,7 +15,7 @@
 }
 
 .header__menu-button:hover .header__icon-button-path {
-  fill: #5100b8
+  fill: var(--purple-secondary)
 }
 
 @media screen and (max-width: 1024px) {

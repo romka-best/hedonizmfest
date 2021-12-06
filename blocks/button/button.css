@@ -1,0 +1,12 @@
+.button {
+  box-sizing: border-box;
+  min-width: 15rem;
+  height: 4.8rem;
+  border-radius: 20rem;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.8rem;
+  text-transform: lowercase;
+  transition-property: background, color, border;
+  transition-timing-function: ease;
+  transition-duration: .2s;
+}

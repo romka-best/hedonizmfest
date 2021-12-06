@@ -1,12 +1,12 @@
 .footer__icon-link {
-  margin-left: 9px;
-  width: 22px;
-  height: 21px;
+  margin-left: 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .footer__icon-link {
-    width: 18.33px;
-    height: 17.5px;
+    width: 2rem;
+    height: 2rem;
   }
 }

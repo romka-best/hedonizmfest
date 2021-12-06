@@ -2,8 +2,9 @@
   font-size: 1.8rem;
   line-height: 2.4rem;
   font-weight: 500;
-  color: #3b3748;
-
+  color: var(--dark-primary);
+  text-transform: lowercase;
+  
   transition: color linear .2s;
 }
 

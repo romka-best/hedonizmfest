@@ -1,0 +1,19 @@
+.select-menu {
+  position: relative;
+  font-size: 1.6rem;
+  width: 20rem;
+}
+
+.select-menu::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-style: solid;
+  border-width: .8rem .65rem 0 .65rem;
+  border-color: var(--dark-primary) transparent transparent transparent;
+  top: 40%;
+  right: 2.4rem;
+  z-index: 1;
+  border-radius: 1rem;
+}
