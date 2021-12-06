@@ -15,11 +15,11 @@
 }
 
 .header__location:hover .header__city-location {
-  color: #5100b8;
+  color: var(--purple-secondary);
 }
 
 .header__location:hover .header__icon-button-path {
-  fill: #5100b8;
+  fill: var(--purple-secondary);
 }
 
 @media screen and (max-width: 1280px) {

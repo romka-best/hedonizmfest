@@ -14,11 +14,11 @@
 }
 
 .header__button:hover .header__icon-button-path {
-  fill: #5100b8
+  fill: var(--purple-secondary)
 }
 
 .header__button:hover .header__text-button {
-  color: #5100b8
+  color: var(--purple-secondary)
 }
 
 @media screen and (max-width: 1280px) {
