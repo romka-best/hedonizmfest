@@ -1,15 +1,18 @@
 .button {
-  box-sizing: border-box;
   min-width: 15rem;
   height: 4.8rem;
   border-radius: 20rem;
-  padding: 1.2rem 2.4rem;
+  padding: 1.2rem 2.2rem;
+
   font-size: 1.8rem;
+  font-weight: 500;
   text-transform: lowercase;
+
   transition-property: background, color, border;
-  transition-timing-function: ease;
+  transition-timing-function: linear;
   transition-duration: .2s;
 }
+
 @media screen and (max-width: 768px) {
   .button{
     height: 4.4rem;
