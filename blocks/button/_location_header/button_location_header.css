@@ -1,0 +1,12 @@
+@media screen and (max-width: 1280px) {
+  .button_location_header {
+    padding: 0.6rem 1.2rem;
+    margin-right: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .button_location_header {
+    display: none;
+  }
+}
