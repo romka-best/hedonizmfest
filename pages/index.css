@@ -46,6 +46,9 @@
 @import url(../blocks/participation/__title/participation__title.css);
 @import url(../blocks/participation/__steps/participation__steps.css);
 @import url(../blocks/participation/__subtitle/participation__subtitle.css);
+@import url(../blocks/participation/__button-container/participation__button-container.css);
+
+@import url(../blocks/button-container/__button/button-container__button.css);
 
 @import url(../blocks/steps/steps.css);
 @import url(../blocks/steps/__item/steps__item.css);

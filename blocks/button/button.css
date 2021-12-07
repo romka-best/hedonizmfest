@@ -12,3 +12,10 @@
   transition-timing-function: linear;
   transition-duration: .2s;
 }
+
+@media screen and (max-width: 768px) {
+  .button{
+    height: 4.4rem;
+    font-size: 1.6rem;
+  }
+}
