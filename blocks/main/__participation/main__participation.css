@@ -10,3 +10,8 @@
     max-width: 89%;
   }
 }
+@media screen and (max-width: 425px) {
+  .main__participation {
+    max-width: 100%;
+  }
+}
