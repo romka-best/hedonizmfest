@@ -12,6 +12,7 @@
 @import url(../blocks/button/_type/button_type_location.css);
 @import url(../blocks/button/_type/button_type_verification.css);
 @import url(../blocks/button/_selected/button_selected.css);
+@import url(../blocks/button/_location_header/button_location_header.css);
 
 /* selection */
 @import url("../blocks/select-menu/select-menu.css");

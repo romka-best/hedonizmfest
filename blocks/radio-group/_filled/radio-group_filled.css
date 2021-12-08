@@ -3,13 +3,17 @@
   min-width: 15rem;
   padding-left: 0;
 }
-
+@media screen and (max-width:350px){
+  .radio-group_filled{
+    min-width: 10rem;
+  }
+}
 .radio-group_filled .input_type_radio[type="radio"] {
   display: none;
 }
 
 .radio-group_filled .radio-group__button {
-  padding: 1.2rem 2.5rem;
+  padding: 1rem 2.2rem;
   display: block;
   cursor: pointer;
   border: 0.2rem solid var(--dark-secondary);
