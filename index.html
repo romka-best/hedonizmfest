@@ -82,7 +82,7 @@
     <main class="main">
       <section class="main__participation">
         <h1 class="participation__title">Cтать участником</h1>
-        <div class="participation__steps patricipation_closed">
+        <div class="participation__steps">
           <h2 class="participation__subtitle">Как участвовать?</h2>
           <ul class="steps">
             <li class="steps__item">
@@ -116,196 +116,7 @@
         </div>
       </section>
 
-      <section class="form main__form form_type_categories">
-        <p class="form__text form__text_type_number">Шаг 1 из 4</p>
-        <h2 class="form__subtitle">Выберите категорию</h2>
-        <form class="form__inputs" name="location">
-          <fieldset class="form__location">
-            <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-              <input class="input_type_radio" id="cafe" type="radio" name="radio" value="cafe" checked />
-              <label class="radio-group__button" for="cafe">Кафе/бар/ресторан</label>
-            </div>
-            <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-              <input class="input_type_radio" id="lecture" type="radio" name="radio" value="lecture" />
-              <label class="radio-group__button" for="lecture">Мастер-класс/лекция</label>
-            </div>
-            <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-              <input class="input_type_radio" id="party" type="radio" name="radio" value="party" />
-              <label class="radio-group__button" for="party">Посиделки/вечеринка</label>
-            </div>
-            <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-              <input class="input_type_radio" id="other" type="radio" name="radio" value="other" />
-              <label class="radio-group__button" for="other">Другое</label>
-            </div>
-            <div class="form__verification">
-              <button class="button button_type_submit button_type_verification" type="submit">Отмена</button>
-              <button class="button button_filled button_type_verification" type="submit">Далее</button>
-            </div>
-          </fieldset>
-        </form>
-      </section>
-
-      <section class="form main__form form_type_info">
-        <p class="form__text form__text_type_number">Шаг 2 из 4</p>
-        <h2 class="form__subtitle">Заполните форму</h2>
-        <p class="form__text form__text_type_paragraph">Для участия вы можете выбрать:</p>
-        <ul class="form__text form__text_type_list">
-          <li class="form__text_type_list-item">определенную позицию из меню</li>
-          <li class="form__text_type_list-item">группу позиций</li>
-          <li class="form__text_type_list-item">процент от продаж определенных позиций или всего меню</li>
-        </ul>
-        <form class="form__inputs" name="info">
-          <fieldset class="form__location form__location_cafe">
-            <button class="button button_type_submit button_type_location button_selected" type="button">Кафе/бар/ресторан</button>
-            <div class="form__line"></div>
-            <label class="form__text form__text_type_label" for="city_cafe">Город</label>
-            <input class="input" id="city_cafe" type="text" name="city_cafe" placeholder="выберите из списка" required />
-            <label class="form__text form__text_type_label" for="place_cafe">Название заведения</label>
-            <input class="input" id="place_cafe" type="text" name="place_cafe" placeholder="введите название заведения" required />
-            <label class="form__text form__text_type_label" for="full-name_cafe">Контактное лицо</label>
-            <input class="input" id="full-name_cafe" type="text" name="full-name_cafe" placeholder="введите ФИО" required />
-            <label class="form__text form__text_type_label" for="tel_cafe">Телефон для связи с организатором</label>
-            <input class="input" id="tel_cafe" type="tel" name="tel_cafe" placeholder="+7(xxx)-xxx-xx-xx" value="+7(" required />
-            <label class="form__text form__text_type_label" for="menu_cafe">Описание</label>
-            <textarea
-              class="input input_type_description"
-              id="menu_cafe"
-              name="menu_cafe"
-              placeholder="Укажите, что из меню будет принимать участие в акции"
-              required
-            ></textarea>
-            <div class="form__verification">
-              <button class="button button_type_submit button_type_verification" type="submit">Отмена</button>
-              <button class="button button_filled button_type_verification" type="submit">Далее</button>
-            </div>
-          </fieldset>
-        </form>
-      </section>
-
-      <section class="form main__form form_type_info">
-        <p class="form__text form__text_type_number">Шаг 2 из 4</p>
-        <h2 class="form__subtitle">Заполните форму</h2>
-        <p class="form__text form__text_type_paragraph">Для участия вы можете выбрать:</p>
-        <ul class="form__text form__text_type_list">
-          <li class="form__text_type_list-item">определенную позицию из меню</li>
-          <li class="form__text_type_list-item">группу позиций</li>
-          <li class="form__text_type_list-item">процент от продаж определенных позиций или всего меню</li>
-        </ul>
-        <form class="form__inputs" name="info">
-          <fieldset class="form__location form__location_lecture">
-            <button class="button button_type_submit button_type_location button_selected" type="button">Мастер-класс/лекция</button>
-            <div class="form__border">
-              <div class="radio-group">
-                <input class="input_type_radio" id="online_lecture" type="radio" name="radio" value="online" checked />
-                <label class="radio-group__checkmark" for="online_lecture">Онлайн</label>
-              </div>
-              <div class="radio-group">
-                <input class="input_type_radio" id="offline_lecture" type="radio" name="radio" value="offline" />
-                <label class="radio-group__checkmark" for="offline_lecture">Оффлайн</label>
-              </div>
-            </div>
-            <label class="form__text form__text_type_label" for="city_lecture">Город</label>
-            <input class="input" id="city_lecture" type="text" name="city_lecture" placeholder="выберите из списка" required />
-            <label class="form__text form__text_type_label" for="place_lecture">Название мероприятия</label>
-            <input class="input" id="place_lecture" type="text" name="place_lecture" placeholder="введите название" required />
-            <label class="form__text form__text_type_label" for="date_lecture">Дата проведения</label>
-            <input class="input" id="date_lecture" type="text" name="date_lecture" placeholder="укажите дату в формате дд.мм.гггг" required />
-            <label class="form__text form__text_type_label" for="full-name_lecture">Контактное лицо</label>
-            <input class="input" id="full-name_lecture" type="text" name="full-name_lecture" placeholder="введите ФИО" required />
-            <label class="form__text form__text_type_label" for="tel_lecture">Телефон для связи с организатором</label>
-            <input class="input" id="tel_lecture" type="tel" name="tel_lecture" placeholder="+7(xxx)-xxx-xx-xx" value="+7(" required />
-            <div class="form__verification">
-              <button class="button button_type_submit button_type_verification" type="submit">Отмена</button>
-              <button class="button button_filled button_type_verification" type="submit">Далее</button>
-            </div>
-          </fieldset>
-        </form>
-      </section>
-
-      <section class="form main__form form_type_info">
-        <p class="form__text form__text_type_number">Шаг 2 из 4</p>
-        <h2 class="form__subtitle">Заполните форму</h2>
-        <p class="form__text form__text_type_paragraph">Для участия вы можете выбрать:</p>
-        <ul class="form__text form__text_type_list">
-          <li class="form__text_type_list-item">определенную позицию из меню</li>
-          <li class="form__text_type_list-item">группу позиций</li>
-          <li class="form__text_type_list-item">процент от продаж определенных позиций или всего меню</li>
-        </ul>
-        <form class="form__inputs" name="info">
-          <fieldset class="form__location form__location_party">
-            <button class="button button_type_submit button_type_location button_selected" type="button">Мастер-класс/лекция</button>
-            <div class="form__line"></div>
-            <label class="form__text form__text_type_label" for="city_party">Город</label>
-            <input class="input" id="city_party" type="text" name="city_party" placeholder="выберите из списка" required />
-            <label class="form__text form__text_type_label" for="place_party">Название мероприятия</label>
-            <input class="input" id="place_party" type="text" name="place_party" placeholder="введите название" required />
-            <div class="form__border">
-              <div class="radio-group radio-group_type_text">
-                <input class="input_type_radio" id="open_party" type="radio" name="radio" value="open" checked />
-                <label class="radio-group__checkmark" for="open_party">Открытое мероприятие</label>
-              </div>
-              <p class="form__text form__text_type_radio">адрес отобразим в карточке события</p>
-              <div class="radio-group radio-group_type_text">
-                <input class="input_type_radio" id="closed_party" type="radio" name="radio" value="closed" />
-                <label class="radio-group__checkmark" for="closed_party">Закрытое мероприятие</label>
-              </div>
-              <p class="form__text form__text_type_radio">адрес увидят только, те кому вы оправите ссылку на событие</p>
-            </div>
-            <label class="form__text form__text_type_label" for="date_party">Дата проведения</label>
-            <input class="input" id="date_party" type="text" name="date_party" placeholder="укажите дату в формате дд.мм.гггг" required />
-            <label class="form__text form__text_type_label" for="full-name_party">Контактное лицо</label>
-            <input class="input" id="full-name_party" type="text" name="full-name_party" placeholder="введите ФИО" required />
-            <label class="form__text form__text_type_label" for="tel_party">Телефон для связи с организатором</label>
-            <input class="input" id="tel_party" type="tel" name="tel_party" placeholder="+7(xxx)-xxx-xx-xx" value="+7(" required />
-            <div class="form__verification">
-              <button class="button button_type_submit button_type_verification" type="submit">Отмена</button>
-              <button class="button button_filled button_type_verification" type="submit">Далее</button>
-            </div>
-          </fieldset>
-        </form>
-      </section>
-
-      <section class="form main__form form_type_info">
-        <p class="form__text form__text_type_number">Шаг 2 из 4</p>
-        <h2 class="form__subtitle">Заполните форму</h2>
-        <p class="form__text form__text_type_paragraph">Для участия вы можете выбрать:</p>
-        <ul class="form__text form__text_type_list">
-          <li class="form__text_type_list-item">определенную позицию из меню</li>
-          <li class="form__text_type_list-item">группу позиций</li>
-          <li class="form__text_type_list-item">процент от продаж определенных позиций или всего меню</li>
-        </ul>
-        <form class="form__inputs" name="info">
-          <fieldset class="form__location form__location_other">
-            <button class="button button_type_submit button_type_location button_selected" type="button">Другое</button>
-            <div class="form__border">
-              <div class="radio-group">
-                <input class="input_type_radio" id="online_other" type="radio" name="radio" value="online" checked />
-                <label class="radio-group__checkmark" for="online_other">Онлайн</label>
-              </div>
-              <div class="radio-group">
-                <input class="input_type_radio" id="offline_other" type="radio" name="radio" value="offline" />
-                <label class="radio-group__checkmark" for="offline_other">Оффлайн</label>
-              </div>
-            </div>
-            <label class="form__text form__text_type_label" for="city_other">Город</label>
-            <input class="input" id="city_other" type="text" name="city_other" placeholder="выберите из списка" required />
-            <label class="form__text form__text_type_label" for="place_other">Название мероприятия</label>
-            <input class="input" id="place_other" type="text" name="place_other" placeholder="введите название" required />
-            <label class="form__text form__text_type_label" for="date_other">Дата проведения</label>
-            <input class="input" id="date_other" type="text" name="date_other" placeholder="укажите дату в формате дд.мм.гггг" required />
-            <label class="form__text form__text_type_label" for="full-name_other">Контактное лицо</label>
-            <input class="input" id="full-name_other" type="text" name="full-name_other" placeholder="введите ФИО" required />
-            <label class="form__text form__text_type_label" for="tel_other">Телефон для связи с организатором</label>
-            <input class="input" id="tel_other" type="tel" name="tel__other" placeholder="+7(xxx)-xxx-xx-xx" value="+7(" required />
-            <div class="form__verification">
-              <button class="button button_type_submit button_type_verification" type="submit">Отмена</button>
-              <button class="button button_filled button_type_verification" type="submit">Далее</button>
-            </div>
-          </fieldset>
-        </form>
-      </section>
-
-      <section class="form main__form form_type_contact">
+      <section class="form main__form form_type_contact form_closed">
         <p class="form__text form__text_type_number">Шаг 3 из 4</p>
         <h2 class="form__subtitle">Укажите контакты и часы работы</h2>
         <p class="form__text form__text_type_paragraph">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге событий</p>
@@ -337,7 +148,7 @@
         </form>
       </section>
 
-      <section class="form main__form form_type_contact">
+      <section class="form main__form form_type_contact form_closed">
         <p class="form__text form__text_type_number">Шаг 3 из 4</p>
         <h2 class="form__subtitle">Укажите контакты и часы работы</h2>
         <p class="form__text form__text_type_paragraph">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге событий</p>
@@ -367,7 +178,7 @@
         </form>
       </section>
 
-      <section class="form main__form form_type_contact">
+      <section class="form main__form form_type_contact form_closed">
         <p class="form__text form__text_type_number">Шаг 3 из 4</p>
         <h2 class="form__subtitle">Укажите контакты и часы работы</h2>
         <p class="form__text form__text_type_paragraph">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге событий</p>
@@ -401,7 +212,7 @@
         </form>
       </section>
 
-      <section class="form main__form form_type_contact">
+      <section class="form main__form form_type_contact form_closed">
         <p class="form__text form__text_type_number">Шаг 3 из 4</p>
         <h2 class="form__subtitle">Укажите контакты и часы работы</h2>
         <p class="form__text form__text_type_paragraph">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге событий</p>
