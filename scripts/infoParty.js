@@ -2,7 +2,7 @@ const pages = ["/categories.html", "/infoParty.html", "/contactParty.html"];
 
 const header = document.querySelector(".header");
 const info = document.querySelector(".form_type_info");
-const nextBtn = info.querySelector(".button_type_next");
+const form = document.querySelector('.form__inputs');
 const cancelBtn = info.querySelector(".button_type_cancel");
 
 let prevScroll = window.scrollY;
@@ -21,22 +21,11 @@ window.addEventListener("scroll", () => {
   prevScroll = curScroll;
 });
 
-nextBtn.addEventListener("click", function () {
-  let current = location.pathname;
-  let idx = pages.indexOf(current); // находим текущую страницу в массиве
-
-  // переходим на следующую страницу
-  if (idx > -1) {
-    location.pathname = pages[++idx];
-  }
+form.addEventListener("submit", function (evt) {
+  evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы
+  location.href = pages[2];
 });
 
 cancelBtn.addEventListener("click", function () {
-  let current = location.pathname;
-  let idx = pages.indexOf(current); // находим текущую страницу в массиве
-
-  // переходим на предыдущую страницу
-  if (idx > -1) {
-    location.pathname = pages[--idx];
-  }
+  location.href = pages[0];
 });

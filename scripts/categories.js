@@ -6,7 +6,6 @@ const pagesOther = ["/categories.html", "/infoOther.html"];
 const header = document.querySelector(".header");
 const categories = document.querySelector(".form_type_categories");
 const nextBtn = categories.querySelector(".button_type_next");
-const locationInput = categories.querySelector(".radio-group__button");
 const radioBtns = categories.querySelectorAll(".radio-group__button");
 
 let prevScroll = window.scrollY;

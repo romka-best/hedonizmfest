@@ -1,4 +1,4 @@
-const pages = ["/categories.html", "/infoOther.html", "/contactOther.html"];
+const pages = ["/hedonizmfest/categories.html", "/hedonizmfest/infoOther.html", "/hedonizmfest/contactOther.html"];
 
 const header = document.querySelector(".header");
 const info = document.querySelector(".form_type_contact");
