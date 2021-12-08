@@ -1,15 +1,16 @@
 .input {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   outline: none;
   min-width: 10rem;
-  padding: 1.2rem ;
-  border-radius: 20rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2.4rem;
   color: var(--dark-secondary);
-  border: .2rem solid var(--dark-secondary);
+  border: 0.2rem solid var(--dark-secondary);
+  box-sizing: border-box;
   appearance: none;
   -webkit-appearance: none;
   transition-property: color, border;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .input:not(:placeholder-shown) {
@@ -18,5 +19,5 @@
 
 .input:focus {
   color: var(--dark-primary);
-  border: .2rem solid var(--purple-primary);
+  border: 0.2rem solid var(--purple-primary);
 }

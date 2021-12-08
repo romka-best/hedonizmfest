@@ -1,0 +1,12 @@
+.button_type_submit {
+  cursor: pointer;
+  background: transparent;
+  border: 0.2rem solid var(--dark-primary);
+  color: var(--dark-primary);
+}
+
+.button_type_submit:hover {
+  color: var(--purple-secondary);
+  border: 0.2rem solid var(--purple-secondary);
+  background: transparent;
+}

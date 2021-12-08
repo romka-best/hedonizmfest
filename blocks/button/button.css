@@ -8,5 +8,5 @@
   text-transform: lowercase;
   transition-property: background, color, border;
   transition-timing-function: ease;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }

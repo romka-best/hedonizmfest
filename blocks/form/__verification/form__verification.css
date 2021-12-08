@@ -1,0 +1,6 @@
+.form__verification {
+  display: flex;
+  margin-top: 3.2rem;
+  font-size: 0;
+  justify-content: flex-end;
+}

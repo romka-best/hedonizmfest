@@ -1,0 +1,9 @@
+.form__text_type_label {
+  margin: 3.2rem 0 0.8rem 2.4rem;
+  color: var(--dark-secondary);
+  text-transform: lowercase;
+}
+
+.form__text_type_label:first-of-type {
+  margin-top: 0;
+}

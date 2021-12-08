@@ -1,0 +1,5 @@
+.form__text_type_list {
+  padding-left: 2.8rem;
+  list-style: none;
+  grid-area: list;
+}
