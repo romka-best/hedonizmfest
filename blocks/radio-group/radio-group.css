@@ -1,59 +1,72 @@
 .radio-group {
-  display: block;
-  position: relative;
-  padding-left: 2.5rem;
-  cursor: pointer;
-  color: var(--dark-primary);
-  font-size: 1.8rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  margin-bottom: 4rem;
+}
+
+.radio-group:first-of-type {
+  padding-top: 3.2rem;
+}
+
+.radio-group:last-of-type {
+  padding-bottom: 3.2rem;
+  margin-bottom: 0;
 }
 
 .radio-group .input_type_radio {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.radio-group .input_type_radio ~ .radio__checkmark {
-  background-color: var(--light-primary);
-  border: .2rem solid var(--dark-primary);
-}
-
-.radio-group .input_type_radio ~ .radio__checkmark::before {
-  content:'';
-  position: absolute;
-  top: .3rem;
-  left: .3rem;
-  width: .5rem;
-  height: .5rem;
-  border-radius: 50%;
-  border: .2rem solid var(--dark-primary);
-}
-
-.radio-group .input_type_radio:checked ~ .radio__checkmark {
-  background-color: var(--light-primary);
-  border: .2rem solid var(--purple-primary);
-}
-
-.radio-group .input_type_radio:checked ~ .radio__checkmark:after {
-  display: block;
-}
-
-.radio-group .input_type_radio:checked ~ .radio__checkmark:before {
   display: none;
 }
 
-.radio-group .radio__checkmark:after {
-  content:'';
+.radio-group .radio-group__checkmark {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 3.2rem;
+  margin-right: 0;
+  user-select: none;
+}
+
+.radio-group .radio-group__checkmark:before {
+  content: "";
+  display: block;
+  width: 2.2rem;
+  height: 2.2rem;
   position: absolute;
-  top: .4rem;
-  left: .4rem;
-  width: .5rem;
-  height: .5rem;
-  border-radius: 50%;
-  border: .1rem solid var(--purple-primary);
-  background-color: var(--purple-primary);
+  left: 0;
+  bottom: 0.2rem;
+  background: no-repeat url(../../images/icon_radio-off.svg);
+  background-size: cover;
+  transition: all linear 0.2s;
+}
+
+/* Checked */
+.radio-group .input_type_radio:checked + .radio-group__checkmark:before {
+  background: no-repeat url(../../images/icon_radio-on.svg);
+  background-size: cover;
+}
+
+/* Hover */
+.radio-group .radio-group__checkmark:hover:before {
+  background: no-repeat url(../../images/icon_radio-hover.svg);
+  background-size: cover;
+}
+
+/* Disabled */
+.radio-group .input_type_radio:disabled + .radio-group__checkmark {
+  cursor: default;
+  color: var(--dark-primary);
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .radio-group {
+    margin-bottom: 3.2rem;
+  }
+
+  .radio-group .radio-group__checkmark {
+    padding-left: 2.2rem;
+  }
+
+  .radio-group .radio-group__checkmark:before {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
 }

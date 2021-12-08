@@ -1,0 +1,11 @@
+.radio-group_type_text {
+  margin-bottom: 0;
+}
+
+.radio-group_type_text:first-of-type {
+  padding-top: 3.2rem;
+}
+
+.radio-group_type_text:last-of-type {
+  padding-bottom: 0;
+}

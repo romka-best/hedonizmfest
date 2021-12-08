@@ -30,6 +30,7 @@
 @import url("../blocks/radio-group/_filled/radio-group_filled.css");
 @import url("../blocks/radio-group/__button/radio-group__button.css");
 @import url(../blocks/radio-group/__button/_type/radio-group__button_type_location.css);
+@import url(../blocks/radio-group/_type/radio-group_type_text.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_hidden/header_hidden.css);
@@ -75,10 +76,12 @@
 @import url(../blocks/form/__text/_type/form__text_type_list.css);
 @import url(../blocks/form/__text/_type/form__text_type_list-item.css);
 @import url(../blocks/form/__text/_type/form__text_type_label.css);
+@import url(../blocks/form/__text/_type/form__text_type_radio.css);
 @import url(../blocks/form/__inputs/form__inputs.css);
 @import url(../blocks/form/__location/form__location.css);
 @import url(../blocks/form/__verification/form__verification.css);
 @import url(../blocks/form/__line/form__line.css);
+@import url(../blocks/form/__border/form__border.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__illustration/footer__illustration.css);
