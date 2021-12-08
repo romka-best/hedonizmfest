@@ -3,8 +3,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .footer__info:not(:first-of-type) {
-    margin-top: 8rem;
+  .footer__info {
+    margin-top: 0;
   }
 }
 

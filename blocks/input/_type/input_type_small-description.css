@@ -1,5 +1,6 @@
 .input_type_small-description {
   min-height: 9.6rem;
   border-radius: 2.4rem;
+  overflow: hidden;
   resize: none;
 }

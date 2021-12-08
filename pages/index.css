@@ -29,6 +29,7 @@
 @import url("../blocks/radio-group/__checkmark/radio-group__checkmark.css");
 @import url("../blocks/radio-group/_filled/radio-group_filled.css");
 @import url("../blocks/radio-group/__button/radio-group__button.css");
+@import url(../blocks/radio-group/__button/_type/radio-group__button_type_location.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_hidden/header_hidden.css);
