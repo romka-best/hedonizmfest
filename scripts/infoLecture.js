@@ -1,4 +1,9 @@
+const pages = ["/categories.html", "/infoLecture.html", "/contactLecture.html"];
+
 const header = document.querySelector(".header");
+const info = document.querySelector(".form_type_info");
+const nextBtn = info.querySelector(".button_type_next");
+const cancelBtn = info.querySelector(".button_type_cancel");
 
 let prevScroll = window.scrollY;
 let curScroll;
@@ -14,4 +19,24 @@ window.addEventListener("scroll", () => {
   }
 
   prevScroll = curScroll;
+});
+
+nextBtn.addEventListener("click", function () {
+  let current = location.pathname;
+  let idx = pages.indexOf(current); // находим текущую страницу в массиве
+
+  // переходим на следующую страницу
+  if (idx > -1) {
+    location.pathname = pages[++idx];
+  }
+});
+
+cancelBtn.addEventListener("click", function () {
+  let current = location.pathname;
+  let idx = pages.indexOf(current); // находим текущую страницу в массиве
+
+  // переходим на предыдущую страницу
+  if (idx > -1) {
+    location.pathname = pages[--idx];
+  }
 });

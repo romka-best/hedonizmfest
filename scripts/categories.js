@@ -7,6 +7,7 @@ const header = document.querySelector(".header");
 const categories = document.querySelector(".form_type_categories");
 const nextBtn = categories.querySelector(".button_type_next");
 const locationInput = categories.querySelector(".radio-group__button");
+const radioBtns = categories.querySelectorAll(".radio-group__button");
 
 let prevScroll = window.scrollY;
 let curScroll;
@@ -42,6 +43,10 @@ function pageSelect() {
   return pages;
 }
 
+function selectBtn() {
+  nextBtn.classList.add("button_filled");
+}
+
 nextBtn.addEventListener("click", function (evt) {
   evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы
 
@@ -54,3 +59,7 @@ nextBtn.addEventListener("click", function (evt) {
     location.pathname = pages[++idx];
   }
 });
+
+for (let i = 0; i < radioBtns.length; i++) {
+  radioBtns[i].addEventListener("click", selectBtn);
+}

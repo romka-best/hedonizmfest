@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Гедонизмфест</title>
     <link rel="icon" href="images/logo.svg" />
-    <link rel="stylesheet" href="./pages/infoCafe.css" />
+    <link rel="stylesheet" href="./pages/contactLecture.css" />
   </head>
   <body class="page page_without-transition">
     <header class="header">
@@ -84,38 +84,28 @@
         <h1 class="participation__title participation__title_visible">Cтать участником</h1>
       </section>
 
-      <section class="form main__form form_type_info">
-        <p class="form__text form__text_type_number">Шаг 2 из 4</p>
-        <h2 class="form__subtitle">Заполните форму</h2>
-        <p class="form__text form__text_type_paragraph">Для участия вы можете выбрать:</p>
-        <ul class="form__text form__text_type_list">
-          <li class="form__text_type_list-item">определенную позицию из меню</li>
-          <li class="form__text_type_list-item">группу позиций</li>
-          <li class="form__text_type_list-item">процент от продаж определенных позиций или всего меню</li>
-        </ul>
+      <section class="form main__form form_type_contact">
+        <p class="form__text form__text_type_number">Шаг 3 из 4</p>
+        <h2 class="form__subtitle">Укажите контакты и часы работы</h2>
+        <p class="form__text form__text_type_paragraph">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге событий</p>
         <form class="form__inputs" name="info">
-          <fieldset class="form__location form__location_other">
-            <button class="button button_type_submit button_type_location button_selected" type="button">Другое</button>
-            <div class="form__border">
-              <div class="radio-group">
-                <input class="input_type_radio" id="online_other" type="radio" name="radio" value="online" checked />
-                <label class="radio-group__checkmark" for="online_other">Онлайн</label>
-              </div>
-              <div class="radio-group">
-                <input class="input_type_radio" id="offline_other" type="radio" name="radio" value="offline" />
-                <label class="radio-group__checkmark" for="offline_other">Оффлайн</label>
-              </div>
-            </div>
-            <label class="form__text form__text_type_label" for="city_other">Город</label>
-            <input class="input" id="city_other" type="text" name="city_other" placeholder="выберите из списка" required />
-            <label class="form__text form__text_type_label" for="place_other">Название мероприятия</label>
-            <input class="input" id="place_other" type="text" name="place_other" placeholder="введите название" required />
-            <label class="form__text form__text_type_label" for="date_other">Дата проведения</label>
-            <input class="input" id="date_other" type="text" name="date_other" placeholder="укажите дату в формате дд.мм.гггг" required />
-            <label class="form__text form__text_type_label" for="full-name_other">Контактное лицо</label>
-            <input class="input" id="full-name_other" type="text" name="full-name_other" placeholder="введите ФИО" required />
-            <label class="form__text form__text_type_label" for="tel_other">Телефон для связи с организатором</label>
-            <input class="input" id="tel_other" type="tel" name="tel__other" placeholder="+7(xxx)-xxx-xx-xx" value="+7(" required />
+          <fieldset class="form__location form__location_lecture">
+            <label class="form__text form__text_type_label" for="clock_lecture">Время проведения</label>
+            <input class="input" id="clock_lecture" type="text" name="clock_lecture" placeholder="например: 18:00-22:00" required />
+            <label class="form__text form__text_type_label" for="address_lecture">Адрес проведения</label>
+            <input class="input" id="address_lecture" type="text" name="address_lecture" placeholder="каждый адрес с новой строки" required />
+            <label class="form__text form__text_type_label" for="work_phone_lecture">Номер телефона для бронирования</label>
+            <input class="input" id="work_phone_lecture" type="tel" name="work_phone_lecture" placeholder="+7(xxx)-xxx-xx-xx" value="+7(" required />
+            <label class="form__text form__text_type_label" for="cost_lecture">Стоимость участия</label>
+            <input class="input" id="cost_lecture" type="text" name="cost_lecture" placeholder="укажите стоимость в рублях" required />
+            <label class="form__text form__text_type_label" for="description_lecture">Описание</label>
+            <textarea
+              class="input input_type_small-description"
+              id="description_lecture"
+              name="description_lecture"
+              placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено"
+              required
+            ></textarea>
             <div class="form__verification">
               <button class="button button_type_submit button_type_verification button_type_cancel" type="button">Отмена</button>
               <button class="button button_filled button_type_verification button_type_next" type="submit">Далее</button>
@@ -198,6 +188,6 @@
         </ul>
       </nav>
     </footer>
-    <script src="./scripts/infoOther.js"></script>
+    <script src="./scripts/contactLecture.js"></script>
   </body>
 </html>
