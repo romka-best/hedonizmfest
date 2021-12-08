@@ -6,3 +6,9 @@
 .button_type_verification:first-of-type {
   margin-left: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .button_type_verification {
+    min-width: 15rem;
+  }
+}

@@ -5,8 +5,16 @@
   border-radius: 20rem;
   padding: 1.2rem 2.4rem;
   font-size: 1.8rem;
+  line-height: 1.33;
   text-transform: lowercase;
   transition-property: background, color, border;
   transition-timing-function: ease;
   transition-duration: 0.2s;
+}
+
+@media screen and (max-width: 425px) {
+  .button {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
 }

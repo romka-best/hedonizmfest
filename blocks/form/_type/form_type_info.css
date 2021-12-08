@@ -1,3 +1,9 @@
 .form_type_info {
   padding-bottom: 8rem;
 }
+
+@media screen and (max-width: 768px) {
+  .form_type_info {
+    padding-bottom: 0;
+  }
+}

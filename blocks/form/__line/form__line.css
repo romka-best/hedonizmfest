@@ -1,5 +1,10 @@
 .form__line {
   margin: 2rem 0 2rem;
-  border-top: 0.1rem solid var(--purple-primary);
-  opacity: 0.1;
+  border-top: 0.1rem solid var(--light-secondary);
+}
+
+@media screen and (max-width: 768px) {
+  .form__line {
+    margin: 2rem -2rem;
+  }
 }
