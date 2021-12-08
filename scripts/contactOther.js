@@ -1,8 +1,7 @@
-const pages = ["/hedonizmfest/categories.html", "/hedonizmfest/infoOther.html", "/hedonizmfest/contactOther.html"];
+const pages = ["/categories.html", "/infoOther.html", "/contactOther.html"];
 
 const header = document.querySelector(".header");
 const info = document.querySelector(".form_type_contact");
-const nextBtn = info.querySelector(".button_type_next");
 const cancelBtn = info.querySelector(".button_type_cancel");
 
 let prevScroll = window.scrollY;
