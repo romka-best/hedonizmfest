@@ -1,40 +1,53 @@
 .radio-group_filled {
-	display: block;
-  width: 25rem;
+  display: block;
+  min-width: 15rem;
   padding-left: 0;
 }
-
-.radio-group_filled .input_type_radio[type=radio] {
+@media screen and (max-width:350px){
+  .radio-group_filled{
+    min-width: 10rem;
+  }
+}
+.radio-group_filled .input_type_radio[type="radio"] {
   display: none;
 }
 
 .radio-group_filled .radio-group__button {
-  padding: 1.2rem 2.5rem;
-	display: block;
-	cursor: pointer;
-	border: .2rem solid var(--dark-secondary);
-  background-color: var(--white);
-	border-radius: 20rem;
-	user-select: none;
-  transition-property: background, color, border;
+  padding: 1rem 2.2rem;
+  display: block;
+  cursor: pointer;
+  border: 0.2rem solid var(--dark-secondary);
+  background-color: transparent;
+  border-radius: 20rem;
+  user-select: none;
+  transition-property: background-color, color, border;
   transition-timing-function: ease;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 /* Checked */
-.radio-group_filled .input_type_radio[type=radio]:checked + .radio-group__button {
-	background: var(--purple-primary);
+.radio-group_filled .input_type_radio[type="radio"]:checked + .radio-group__button {
   color: var(--light-primary);
   border-color: var(--purple-primary);
+  background: var(--purple-primary) no-repeat center right 2.4rem url(../../../images/icon_selected.svg);
 }
 
 /* Hover */
 .radio-group_filled .radio-group__button:hover {
-	color: var(--dark-primary);
+  color: var(--purple-secondary);
+  border: 0.2rem solid var(--purple-secondary);
+  background: transparent;
+}
+
+/* Checked Hover*/
+.radio-group_filled .input_type_radio[type="radio"]:checked + .radio-group__button:hover {
+  color: var(--light-primary);
+  border: 0.2rem solid var(--purple-secondary);
+  background: var(--purple-secondary) no-repeat center right 2.4rem url(../../../images/icon_selected.svg);
 }
 
 /* Disabled */
-.radio-group_filled .input_type_radio[type=radio]:disabled + .radio-group__button {
-	background: var(--light-primary);
-	color: var(--dark-secondary);
+.radio-group_filled .input_type_radio[type="radio"]:disabled + .radio-group__button {
+  background: var(--light-primary);
+  color: var(--dark-secondary);
 }

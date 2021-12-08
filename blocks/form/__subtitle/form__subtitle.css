@@ -1,0 +1,33 @@
+.form__subtitle {
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 5.2rem;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+
+  grid-area: subtitle;
+}
+
+@media screen and (max-width: 1024px) {
+  .form__subtitle {
+    padding: 2rem 0 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form__subtitle {
+    font-size: 4.6rem;
+    line-height: 3.6rem;
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .form__subtitle {
+    font-size: 3.2rem;
+    letter-spacing: 0;
+    padding: 1.2rem 2rem 2rem;
+  }
+}

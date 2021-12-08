@@ -5,6 +5,7 @@
   padding: 1.2rem 2.2rem;
 
   font-size: 1.8rem;
+  line-height: 1.33;
   font-weight: 500;
   text-transform: lowercase;
 
@@ -19,3 +20,11 @@
     font-size: 1.6rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .button {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
+}
+

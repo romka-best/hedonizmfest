@@ -1,0 +1,9 @@
+.form__text_type_paragraph {
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: 1024px) {
+  .form__text_type_paragraph {
+    margin-bottom: 2rem;
+  }
+}

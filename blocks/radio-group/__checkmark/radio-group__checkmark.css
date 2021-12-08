@@ -1,15 +1,23 @@
-.radio__checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 1.5rem;
-  width: 1.5rem;
-  background-color: var(--light-primary);
-  border-radius: 50%;
+.radio-group__checkmark {
+  font-size: 1.8rem;
+  line-height: 1.33;
+  color: var(--dark-primary);
+  transition: all linear 0.2s;
+
+  margin-bottom: 4rem;
 }
 
-.radio__checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+.radio-group__checkmark:hover {
+  color: var(--purple-secondary);
+}
+
+@media screen and (max-width: 768px) {
+  .radio-group__checkmark {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
+}
+
+.radio-group__checkmark:last-of-type {
+  margin-bottom: 0;
 }

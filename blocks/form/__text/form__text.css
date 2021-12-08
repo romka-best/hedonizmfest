@@ -1,0 +1,15 @@
+.form__text {
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 1.33;
+}
+
+@media screen and (max-width: 768px) {
+  .form__text {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    padding: 0 2rem;
+  }
+}

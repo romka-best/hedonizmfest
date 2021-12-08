@@ -1,0 +1,12 @@
+.button_selected {
+  cursor: pointer;
+  background: var(--purple-primary) no-repeat center right 2.4rem url(../../../images/icon_selected.svg);
+  border: 0.2rem solid var(--purple-primary);
+  color: var(--light-primary);
+}
+
+.button_selected:hover {
+  color: var(--light-primary);
+  border: 0.2rem solid var(--purple-secondary);
+  background: var(--purple-secondary) no-repeat center right 2.4rem url(../../../images/icon_selected.svg);
+}

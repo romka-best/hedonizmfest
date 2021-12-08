@@ -1,0 +1,19 @@
+.button_type_verification {
+  margin-left: 1.2rem;
+  min-width: 20.4rem;
+}
+
+.button_type_verification:first-of-type {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_verification {
+    min-width: 15rem;
+  }
+}
+@media screen and (max-width: 370px) {
+  .button_type_verification {
+    margin-left: 0;
+  }
+}
