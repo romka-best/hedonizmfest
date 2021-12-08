@@ -1,15 +1,24 @@
 .button {
-  box-sizing: border-box;
   min-width: 15rem;
   height: 4.8rem;
   border-radius: 20rem;
-  padding: 1.2rem 2.4rem;
+  padding: 1.2rem 2.2rem;
+
   font-size: 1.8rem;
   line-height: 1.33;
+  font-weight: 500;
   text-transform: lowercase;
+
   transition-property: background, color, border;
-  transition-timing-function: ease;
-  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-duration: .2s;
+}
+
+@media screen and (max-width: 768px) {
+  .button{
+    height: 4.4rem;
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -18,3 +27,4 @@
     line-height: 1.25;
   }
 }
+

@@ -23,6 +23,7 @@
 
 @media screen and (max-width: 425px) {
   .participation__title {
+    margin: 0 2rem;
     font-size: 4.4rem;
     line-height: 1;
     letter-spacing: 0;

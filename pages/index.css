@@ -5,30 +5,26 @@
 
 @import url(../blocks/page/page.css);
 
-/* buttons */
-@import url("../blocks/button/button.css");
-@import url("../blocks/button/_type/button_type_submit.css");
-@import url("../blocks/button/_filled/button_filled.css");
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_submit.css);
+@import url(../blocks/button/_filled/button_filled.css);
 @import url(../blocks/button/_type/button_type_location.css);
 @import url(../blocks/button/_type/button_type_verification.css);
 @import url(../blocks/button/_selected/button_selected.css);
 
-/* selection */
-@import url("../blocks/select-menu/select-menu.css");
-@import url("../blocks/select-menu/__container/select-menu__container.css");
-@import url("../blocks/select-menu/__option/select-menu__option.css");
+@import url(../blocks/select-menu/select-menu.css);
+@import url(../blocks/select-menu/__container/select-menu__container.css);
+@import url(../blocks/select-menu/__option/select-menu__option.css);
 
-/* input */
-@import url("../blocks/input/input.css");
-@import url("../blocks/input/_type/input_type_radio.css");
+@import url(../blocks/input/input.css);
+@import url(../blocks/input/_type/input_type_radio.css);
 @import url(../blocks/input/_type/input_type_description.css);
 @import url(../blocks/input/_type/input_type_small-description.css);
 
-/* radio */
-@import url("../blocks/radio-group/radio-group.css");
-@import url("../blocks/radio-group/__checkmark/radio-group__checkmark.css");
-@import url("../blocks/radio-group/_filled/radio-group_filled.css");
-@import url("../blocks/radio-group/__button/radio-group__button.css");
+@import url(../blocks/radio-group/radio-group.css);
+@import url(../blocks/radio-group/__checkmark/radio-group__checkmark.css);
+@import url(../blocks/radio-group/_filled/radio-group_filled.css);
+@import url(../blocks/radio-group/__button/radio-group__button.css);
 @import url(../blocks/radio-group/__button/_type/radio-group__button_type_location.css);
 @import url(../blocks/radio-group/_type/radio-group_type_text.css);
 
@@ -49,6 +45,7 @@
 @import url(../blocks/header/__icon-button-path/header__icon-button-path.css);
 @import url(../blocks/header/__text-button/header__text-button.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/button/_location_header/button_location_header.css);
 
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__participation/main__participation.css);
@@ -58,6 +55,9 @@
 @import url(../blocks/participation/__title/participation__title.css);
 @import url(../blocks/participation/__steps/participation__steps.css);
 @import url(../blocks/participation/__subtitle/participation__subtitle.css);
+@import url(../blocks/participation/__button-container/participation__button-container.css);
+
+@import url(../blocks/button-container/__button/button-container__button.css);
 
 @import url(../blocks/steps/steps.css);
 @import url(../blocks/steps/__item/steps__item.css);
