@@ -1,7 +1,7 @@
-const pagesCafe = ["/categories.html", "/infoCafe.html"];
-const pagesLecture = ["/categories.html", "/infoLecture.html"];
-const pagesParty = ["/categories.html", "/infoParty.html"];
-const pagesOther = ["/categories.html", "/infoOther.html"];
+const pagesCafe = ["/hedonizmfest/categories.html", "/hedonizmfest/infoCafe.html"];
+const pagesLecture = ["/hedonizmfest/categories.html", "/hedonizmfest/infoLecture.html"];
+const pagesParty = ["/hedonizmfest/categories.html", "/hedonizmfest/infoParty.html"];
+const pagesOther = ["/hedonizmfest/categories.html", "/hedonizmfest/infoOther.html"];
 
 const header = document.querySelector(".header");
 const categories = document.querySelector(".form_type_categories");
