@@ -1,17 +1,3 @@
 .main__participation {
-  max-width: 94.5%;
   margin: 0 auto;
-
-  color: var(--dark-primary);
-}
-
-@media screen and (max-width: 768px) {
-  .main__participation {
-    max-width: 89%;
-  }
-}
-@media screen and (max-width: 425px) {
-  .main__participation {
-    max-width: 100%;
-  }
 }

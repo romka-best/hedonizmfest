@@ -49,6 +49,7 @@
 @import url(../blocks/participation/_closed/participation_closed.css);
 @import url(../blocks/main/__form/main__form.css);
 
+@import url(../blocks/participation/participation.css);
 @import url(../blocks/participation/__title/participation__title.css);
 @import url(../blocks/participation/__title/_visible/participation__title_visible.css);
 @import url(../blocks/participation/__steps/participation__steps.css);

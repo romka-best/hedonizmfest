@@ -1,11 +1,11 @@
-.form__text_type_list {
+.form__list {
   padding-left: 2.8rem;
   list-style: none;
   grid-area: list;
 }
 
 @media screen and (max-width: 1024px) {
-  .form__text_type_list {
+  .form__list {
     padding: 0 0 2rem 4.5rem;
   }
 }
