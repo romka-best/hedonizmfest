@@ -12,12 +12,7 @@
 @import url(../blocks/button/_type/button_type_verification.css);
 @import url(../blocks/button/_selected/button_selected.css);
 
-@import url(../blocks/select-menu/select-menu.css);
-@import url(../blocks/select-menu/__container/select-menu__container.css);
-@import url(../blocks/select-menu/__option/select-menu__option.css);
-
 @import url(../blocks/input/input.css);
-@import url(../blocks/input/_type/input_type_radio.css);
 @import url(../blocks/input/_type/input_type_description.css);
 @import url(../blocks/input/_type/input_type_small-description.css);
 
@@ -49,7 +44,6 @@
 
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__participation/main__participation.css);
-@import url(../blocks/participation/_closed/participation_closed.css);
 @import url(../blocks/main/__form/main__form.css);
 
 @import url(../blocks/participation/__title/participation__title.css);
@@ -69,7 +63,6 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/_type/form_type_categories.css);
 @import url(../blocks/form/_type/form_type_info.css);
-@import url(../blocks/form/_closed/form_closed.css);
 @import url(../blocks/form/__subtitle/form__subtitle.css);
 @import url(../blocks/form/__text/form__text.css);
 @import url(../blocks/form/__text/_type/form__text_type_number.css);
