@@ -1,10 +1,10 @@
-.button_type_location {
+.location__radio {
   margin-top: 1.2rem;
   text-align: left;
 }
 
 @media screen and (max-width: 768px) {
-  .button_type_location:first-of-type {
+  .location__radio:first-of-type {
     margin-top: 0;
   }
 }

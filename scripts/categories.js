@@ -6,7 +6,7 @@ const pagesOther = ["/hedonizmfest/categories.html", "/hedonizmfest/infoOther.ht
 const header = document.querySelector(".header");
 const categories = document.querySelector(".form_type_categories");
 const nextBtn = categories.querySelector(".button_type_next");
-const radioBtns = categories.querySelectorAll(".radio-group__button");
+const radioBtns = categories.querySelectorAll(".location__radio");
 
 let prevScroll = window.scrollY;
 let curScroll;
@@ -43,7 +43,7 @@ function pageSelect() {
 }
 
 function selectBtn() {
-  nextBtn.classList.add("button_filled");
+  nextBtn.classList.add("button_el_filled");
 }
 
 nextBtn.addEventListener("click", function (evt) {

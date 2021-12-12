@@ -54,7 +54,7 @@
         </svg>
         <span class="header__text-button">Хочу пойти</span>
       </button>
-      <button class="button button_filled button_location_header">Поддержать</button>
+      <button class="button button_el_filled button_location_header">Поддержать</button>
       <button class="header__menu-button" type="button">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path class="header__icon-button-path"
@@ -77,7 +77,7 @@
   </div>
 </header>
 <main class="main">
-  <section class="main__participation">
+  <section class="main__participation participation">
     <h1 class="participation__title participation__title_visible">Cтать участником</h1>
   </section>
 
@@ -85,24 +85,24 @@
     <p class="form__text form__text_type_number">Шаг 2 из 4</p>
     <h2 class="form__subtitle">Заполните форму</h2>
     <p class="form__text form__text_type_paragraph">Для участия вы можете выбрать:</p>
-    <ul class="form__text form__text_type_list">
-      <li class="form__text_type_list-item">определенную позицию из меню</li>
-      <li class="form__text_type_list-item">группу позиций</li>
-      <li class="form__text_type_list-item">процент от продаж определенных позиций или всего меню</li>
+    <ul class="form__list">
+      <li class="form__text form__text_type_list-item">определенную позицию из меню</li>
+      <li class="form__text form__text_type_list-item">группу позиций</li>
+      <li class="form__text form__text_type_list-item">процент от продаж определенных позиций или всего меню</li>
     </ul>
     <form class="form__inputs" name="info">
       <fieldset class="form__location form__location_lecture">
-        <button class="button button_type_submit button_type_location button_selected" type="button">
+        <button class="form__location-button button button_selected" type="button">
           Мастер-класс/лекция
         </button>
         <div class="form__border">
-          <div class="radio-group">
-            <input class="input_type_radio" id="online_lecture" type="radio" name="radio" value="online" checked/>
-            <label class="radio-group__checkmark" for="online_lecture">Онлайн</label>
+          <div class="form__radio">
+            <input class="form__input" id="online_lecture" type="radio" name="radio" value="online" checked/>
+            <label class="form__radio-checkmark" for="online_lecture">Онлайн</label>
           </div>
-          <div class="radio-group">
-            <input class="input_type_radio" id="offline_lecture" type="radio" name="radio" value="offline"/>
-            <label class="radio-group__checkmark" for="offline_lecture">Оффлайн</label>
+          <div class="form__radio">
+            <input class="form__input" id="offline_lecture" type="radio" name="radio" value="offline"/>
+            <label class="form__radio-checkmark" for="offline_lecture">Оффлайн</label>
           </div>
         </div>
         <label class="form__text form__text_type_label" for="city_lecture">Город</label>
@@ -120,10 +120,10 @@
         <label class="form__text form__text_type_label" for="tel_lecture">Телефон для связи с организатором</label>
         <input class="input" id="tel_lecture" type="tel" name="tel_lecture" placeholder="+7(xxx)-xxx-xx-xx" value="+7("
                required/>
-        <div class="form__verification">
-          <button class="button button_type_submit button_type_verification button_type_cancel" type="button">Назад
+        <div class="form__verification verification">
+          <button class="verification__button button button_el_empty button_type_cancel" type="button">Назад
           </button>
-          <button class="button button_filled button_type_verification button_type_next" type="submit">Далее</button>
+          <button class="verification__button button button_el_empty button_type_next" type="submit">Далее</button>
         </div>
       </fieldset>
     </form>

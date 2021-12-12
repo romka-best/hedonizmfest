@@ -1,4 +1,4 @@
-.radio-group__checkmark {
+.form__radio-checkmark {
   font-size: 1.8rem;
   line-height: 1.33;
   color: var(--dark-primary);
@@ -7,17 +7,17 @@
   margin-bottom: 4rem;
 }
 
-.radio-group__checkmark:hover {
+.form__radio-checkmark:hover {
   color: var(--purple-secondary);
 }
 
 @media screen and (max-width: 768px) {
-  .radio-group__checkmark {
+  .form__radio-checkmark {
     font-size: 1.6rem;
     line-height: 1.25;
   }
 }
 
-.radio-group__checkmark:last-of-type {
+.form__radio-checkmark:last-of-type {
   margin-bottom: 0;
 }
