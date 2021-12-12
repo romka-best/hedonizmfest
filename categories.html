@@ -53,7 +53,7 @@
         </svg>
         <span class="header__text-button">Хочу пойти</span>
       </button>
-      <button class="button button_filled button_location_header">Поддержать</button>
+      <button class="button button_el_filled button_location_header">Поддержать</button>
       <button class="header__menu-button" type="button">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path class="header__icon-button-path"
@@ -84,28 +84,28 @@
     <p class="form__text form__text_type_number">Шаг 1 из 4</p>
     <h2 class="form__subtitle">Выберите категорию</h2>
     <form class="form__inputs" name="location">
-      <fieldset class="form__location">
-        <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-          <input class="input_type_radio" id="cafe" type="radio" name="radio_categories" value="cafe"/>
-          <label class="radio-group__button" for="cafe">Кафе/бар/ресторан</label>
+      <fieldset class="form__location location">
+        <div class="location__radio radio radio_filled">
+          <input class="form__input" id="cafe" type="radio" name="radio_categories" value="cafe"/>
+          <label class="location__radio-button" for="cafe">Кафе/бар/ресторан</label>
         </div>
-        <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-          <input class="input_type_radio" id="lecture" type="radio" name="radio_categories" value="lecture"/>
-          <label class="radio-group__button" for="lecture">Мастер-класс/лекция</label>
+        <div class="location__radio radio radio_filled">
+          <input class="form__input" id="lecture" type="radio" name="radio_categories" value="lecture"/>
+          <label class="location__radio-button" for="lecture">Мастер-класс/лекция</label>
         </div>
-        <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-          <input class="input_type_radio" id="party" type="radio" name="radio_categories" value="party"/>
-          <label class="radio-group__button" for="party">Посиделки/вечеринка</label>
+        <div class="location__radio radio radio_filled">
+          <input class="form__input" id="party" type="radio" name="radio_categories" value="party"/>
+          <label class="location__radio-button" for="party">Посиделки/вечеринка</label>
         </div>
-        <div class="radio-group__button radio-group_filled radio-group__button_type_location">
-          <input class="input_type_radio" id="other" type="radio" name="radio_categories" value="other"/>
-          <label class="radio-group__button" for="other">Другое</label>
+        <div class="location__radio radio radio_filled">
+          <input class="form__input" id="other" type="radio" name="radio_categories" value="other"/>
+          <label class="location__radio-button" for="other">Другое</label>
         </div>
-        <div class="form__verification">
-          <button class="button button_type_submit button_type_verification button_type_cancel" type="button"
+        <div class="form__verification verification">
+          <button class="verification__button button button_el_empty button_type_cancel" type="button"
                   onclick="location.href='index.html';">Отмена
           </button>
-          <button class="button button_type_submit button_type_verification button_type_next" type="submit">Продолжить
+          <button class="verification__button button button_el_empty button_type_next" type="submit">Продолжить
           </button>
         </div>
       </fieldset>

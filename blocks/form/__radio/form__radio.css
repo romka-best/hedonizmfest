@@ -1,21 +1,21 @@
-.radio-group {
+.form__radio {
   margin-bottom: 4rem;
 }
 
-.radio-group:first-of-type {
+.form__radio:first-of-type {
   padding-top: 3.2rem;
 }
 
-.radio-group:last-of-type {
+.form__radio:last-of-type {
   padding-bottom: 3.2rem;
   margin-bottom: 0;
 }
 
-.radio-group .input_type_radio {
+.form__radio .form__input {
   display: none;
 }
 
-.radio-group .radio-group__checkmark {
+.form__radio .form__radio-checkmark {
   display: block;
   cursor: pointer;
   position: relative;
@@ -24,7 +24,7 @@
   user-select: none;
 }
 
-.radio-group .radio-group__checkmark:before {
+.form__radio .form__radio-checkmark:before {
   content: "";
   display: block;
   width: 2.2rem;
@@ -32,40 +32,40 @@
   position: absolute;
   left: 0;
   bottom: 0.2rem;
-  background: no-repeat url(../../images/icon_radio-off.svg);
+  background: no-repeat url(../../../images/icon_radio-off.svg);
   background-size: cover;
   transition: all linear 0.2s;
 }
 
 /* Checked */
-.radio-group .input_type_radio:checked + .radio-group__checkmark:before {
-  background: no-repeat url(../../images/icon_radio-on.svg);
+.form__radio .form__input:checked + .form__radio-checkmark:before {
+  background: no-repeat url(../../../images/icon_radio-on.svg);
   background-size: cover;
 }
 
 /* Hover */
-.radio-group .radio-group__checkmark:hover:before {
-  background: no-repeat url(../../images/icon_radio-hover.svg);
+.form__radio .form__radio-checkmark:hover:before {
+  background: no-repeat url(../../../images/icon_radio-hover.svg);
   background-size: cover;
 }
 
 /* Disabled */
-.radio-group .input_type_radio:disabled + .radio-group__checkmark {
+.form__radio .form__input:disabled + .form__radio-checkmark {
   cursor: default;
   color: var(--dark-primary);
   opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {
-  .radio-group {
+  .form__radio {
     margin-bottom: 3.2rem;
   }
 
-  .radio-group .radio-group__checkmark {
+  .form__radio .form__radio-checkmark {
     padding-left: 2.2rem;
   }
 
-  .radio-group .radio-group__checkmark:before {
+  .form__radio .form__radio-checkmark:before {
     width: 1.8rem;
     height: 1.8rem;
   }

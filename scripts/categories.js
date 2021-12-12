@@ -43,7 +43,7 @@ function pageSelect() {
 }
 
 function selectBtn() {
-  nextBtn.classList.add("button_filled");
+  nextBtn.classList.add("button_el_filled");
 }
 
 nextBtn.addEventListener("click", function (evt) {

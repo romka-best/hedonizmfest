@@ -6,10 +6,8 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_type/button_type_submit.css);
-@import url(../blocks/button/_filled/button_filled.css);
-@import url(../blocks/button/_type/button_type_location.css);
-@import url(../blocks/button/_type/button_type_verification.css);
+@import url(../blocks/button/_el/button_el_empty.css);
+@import url(../blocks/button/_el/button_el_filled.css);
 @import url(../blocks/button/_selected/button_selected.css);
 
 @import url(../blocks/select-menu/select-menu.css);
@@ -21,12 +19,12 @@
 @import url(../blocks/input/_type/input_type_description.css);
 @import url(../blocks/input/_type/input_type_small-description.css);
 
-@import url(../blocks/radio-group/radio-group.css);
-@import url(../blocks/radio-group/__checkmark/radio-group__checkmark.css);
-@import url(../blocks/radio-group/_filled/radio-group_filled.css);
-@import url(../blocks/radio-group/__button/radio-group__button.css);
-@import url(../blocks/radio-group/__button/_type/radio-group__button_type_location.css);
-@import url(../blocks/radio-group/_type/radio-group_type_text.css);
+
+@import url(../blocks/location/__radio/location__radio.css);
+@import url(../blocks/location/__radio-button/location__radio-button.css);
+@import url(../blocks/radio/radio.css);
+@import url(../blocks/radio/_filled/radio_filled.css);
+
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_hidden/header_hidden.css);
@@ -60,6 +58,7 @@
 
 @import url(../blocks/button-container/__button/button-container__button.css);
 
+
 @import url(../blocks/steps/steps.css);
 @import url(../blocks/steps/__item/steps__item.css);
 @import url(../blocks/steps/__number/steps__number.css);
@@ -69,6 +68,9 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/_type/form_type_categories.css);
 @import url(../blocks/form/_type/form_type_info.css);
+@import url(../blocks/form/__radio/form__radio.css);
+@import url(../blocks/form/__radio-checkmark/form__radio-checkmark.css);
+@import url(../blocks/form/__radio/_text/form__radio_text.css);
 @import url(../blocks/form/_closed/form_closed.css);
 @import url(../blocks/form/__subtitle/form__subtitle.css);
 @import url(../blocks/form/__text/form__text.css);
@@ -80,9 +82,12 @@
 @import url(../blocks/form/__text/_type/form__text_type_radio.css);
 @import url(../blocks/form/__inputs/form__inputs.css);
 @import url(../blocks/form/__location/form__location.css);
+@import url(../blocks/form/__location-button/form__location-button.css);
 @import url(../blocks/form/__verification/form__verification.css);
 @import url(../blocks/form/__line/form__line.css);
 @import url(../blocks/form/__border/form__border.css);
+
+@import url(../blocks/verification/__button/verification__button.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__illustration/footer__illustration.css);
