@@ -1,0 +1,4 @@
+.header__icon-button-path {
+  fill: var(--dark-primary);
+  transition: fill linear .2s;
+}

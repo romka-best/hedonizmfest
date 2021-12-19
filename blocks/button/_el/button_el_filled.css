@@ -1,0 +1,12 @@
+.button_el_filled {
+  cursor: pointer;
+  background: var(--purple-primary);
+  border: 0.2rem solid var(--purple-primary);
+  color: var(--light-primary);
+}
+
+.button_el_filled:hover {
+  color: var(--light-primary);
+  border: 0.2rem solid var(--purple-secondary);
+  background: var(--purple-secondary);
+}

@@ -1,0 +1,22 @@
+.footer__illustration {
+  width: 19.3rem;
+  height: 19.3rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__illustration {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__illustration {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__illustration {
+    display: none;
+  }
+}

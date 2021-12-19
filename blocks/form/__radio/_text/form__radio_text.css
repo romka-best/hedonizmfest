@@ -1,0 +1,11 @@
+.form__radio_text {
+  margin-bottom: 0;
+}
+
+.form__radio_text:first-of-type {
+  padding-top: 3.2rem;
+}
+
+.form__radio_text:last-of-type {
+  padding-bottom: 0;
+}

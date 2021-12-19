@@ -1,0 +1,10 @@
+.location__radio {
+  margin-top: 1.2rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .location__radio:first-of-type {
+    margin-top: 0;
+  }
+}

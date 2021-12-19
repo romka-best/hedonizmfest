@@ -1,0 +1,8 @@
+.header__city-location {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: var(--dark-primary);
+
+  transition: color linear .2s;
+}

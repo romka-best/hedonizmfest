@@ -1,0 +1,12 @@
+.button_el_empty {
+  cursor: pointer;
+  background: transparent;
+  border: 0.2rem solid var(--dark-primary);
+  color: var(--dark-primary);
+}
+
+.button_el_empty:hover {
+  color: var(--purple-secondary);
+  border: 0.2rem solid var(--purple-secondary);
+  background: transparent;
+}

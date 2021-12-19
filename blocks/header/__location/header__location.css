@@ -1,0 +1,36 @@
+.header__location {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  border: none;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+
+  padding: 1.2rem 2.4rem;
+  margin-left: 4rem;
+
+  cursor: pointer;
+}
+
+.header__location:hover .header__city-location {
+  color: var(--purple-secondary);
+}
+
+.header__location:hover .header__icon-button-path {
+  fill: var(--purple-secondary);
+}
+
+@media screen and (max-width: 1280px) {
+  .header__location {
+    padding: 0.6rem 1.2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__location {
+    display: none;
+  }
+}

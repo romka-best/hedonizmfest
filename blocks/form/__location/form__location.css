@@ -1,0 +1,14 @@
+.form__location {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .form__location {
+    border-top: 0.1rem solid var(--light-secondary);
+    padding: 2rem 2rem 0;
+  }
+}

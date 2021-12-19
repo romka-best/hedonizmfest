@@ -1,0 +1,19 @@
+.footer__info {
+  max-height: 20rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__info {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__info {
+    margin-top: 6rem;
+  }
+
+  .footer__info:last-of-type {
+    margin-bottom: 4rem;
+  }
+}

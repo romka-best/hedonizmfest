@@ -1,0 +1,10 @@
+.footer__list-element {
+  margin-top: 2.4rem;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer__list-element:first-child {
+  margin-top: 0;
+}

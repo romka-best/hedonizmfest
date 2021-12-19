@@ -1,0 +1,16 @@
+.participation {
+  max-width: 94.5%;
+  color: var(--dark-primary);
+}
+
+@media screen and (max-width: 768px) {
+  .participation {
+    max-width: 89%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .participation {
+    max-width: 100%;
+  }
+}

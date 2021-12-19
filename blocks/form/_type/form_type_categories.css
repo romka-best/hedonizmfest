@@ -1,0 +1,9 @@
+.form_type_categories {
+  padding-bottom: 14rem;
+}
+
+@media screen and (max-width: 768px) {
+  .form_type_categories {
+    padding-bottom: 0;
+  }
+}

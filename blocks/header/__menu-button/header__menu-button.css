@@ -1,0 +1,25 @@
+.header__menu-button {
+  display: none;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  border: none;
+  background-color: transparent;
+
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.header__menu-button:hover .header__icon-button-path {
+  fill: var(--purple-secondary)
+}
+
+@media screen and (max-width: 1024px) {
+  .header__menu-button {
+    display: block;
+  }
+}

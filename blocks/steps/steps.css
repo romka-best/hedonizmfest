@@ -1,0 +1,13 @@
+.steps {
+  margin: 2.4rem 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .steps {
+    margin-top: 2rem;
+    box-shadow: inset 0 1px 0 var(--light-secondary);
+  }
+}
+

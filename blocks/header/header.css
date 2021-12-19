@@ -1,0 +1,8 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: var(--yellow);
+  box-shadow: 0 .4rem 1.2rem rgba(59, 55, 72, .12);
+
+  transition: transform linear .2s;
+}

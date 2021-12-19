@@ -1,0 +1,12 @@
+.footer__icon-link {
+  margin-left: 1rem;
+  width: 2.2rem;
+  height: 2.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__icon-link {
+    width: 2rem;
+    height: 2rem;
+  }
+}
